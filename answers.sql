@@ -8,7 +8,7 @@ SELECT name FROM people;
 UPDATE people SET name = 'Andrew Craigie' WHERE name = 'Andrew Craggie';
 
 -- 4. Return ONLY your name from the 'people' table.
-SELECT * FROM people WHERE id = 19;
+SELECT name FROM people WHERE id = 19;
 
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 DELETE FROM movies WHERE title = 'Batman Begins';
